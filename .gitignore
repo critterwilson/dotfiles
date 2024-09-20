@@ -1,0 +1,6 @@
+iterm2/
+.DS_Store
+.git/
+.mypy_cache/
+.luarc.json
+lazy-lock.json
