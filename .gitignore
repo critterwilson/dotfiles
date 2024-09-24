@@ -1,7 +1,8 @@
-iterm2/AppSupport/
 sockets/
 .DS_Store
 .git/
 .mypy_cache/
 .luarc.json
 lazy-lock.json
+gcloud/
+iterm2/

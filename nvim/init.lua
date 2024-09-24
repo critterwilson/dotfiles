@@ -29,6 +29,7 @@ vim.g.splitbelow = true
 vim.g.splitright = true
 vim.g.hidden = true
 vim.g.undofile = true
+vim.wo.number = true
 
 require("vim-options")
 require("lazy").setup("plugins")

@@ -1,7 +1,8 @@
 return {
 	"mrjones2014/legendary.nvim",
+	priority = 10000,
 	config = function()
-		require("legendary").setup({})
+		require("legendary").setup({ extensions = { lazy_nvim = true } })
 	end,
 	keys = {
 		{
@@ -10,25 +11,25 @@ return {
 			mode = { "n" },
 			desc = "Show all keymaps through [l]egendary extension",
 		},
-        ---------------------------
-        -- GENERAL
-        ---------------------------
+		---------------------------
+		-- GENERAL
+		---------------------------
 		{
 			"jj",
 			"<ESC>",
-			mode = { "i" },
+			mode = { "!" },
 			desc = "Back to normal mode",
 		},
 		{
 			"H",
 			"^",
-			mode = { "n" },
+			mode = { "n", "v" },
 			desc = "Jump to first character in line",
 		},
 		{
 			"L",
 			"$",
-			mode = { "n" },
+			mode = { "n", "v" },
 			desc = "Jump to last character in line",
 		},
 		{
@@ -57,13 +58,19 @@ return {
 		},
 		{
 			"tt",
-			"bel term",
+			":bel term<CR>",
 			mode = { "n" },
 			desc = "Open a terminal is a horizontal split",
 		},
-        ---------------------------
-        -- WINDOW/TAB NAVIGATION
-        ---------------------------
+		---------------------------
+		-- WINDOW/TAB NAVIGATION
+		---------------------------
+		{
+			"<leader>b",
+			"<C-^>",
+			mode = { "n" },
+			desc = "Navigate [b] to the previous buffer",
+		},
 		{
 			"<leader>ws",
 			":split<CR>",
@@ -95,13 +102,13 @@ return {
 			desc = "Closes all except current [t]ab",
 		},
 		{
-			"<leader>h",
+			"<leader>l",
 			":tabn<CR>",
 			mode = { "n" },
 			desc = "Navigates to the next tab",
 		},
 		{
-			"<leader>l",
+			"<leader>h",
 			":tabp<CR>",
 			mode = { "n" },
 			desc = "Navigates to the previous tab",
@@ -178,6 +185,5 @@ return {
 			mode = { "t" },
 			desc = "Navigate window right (from terminal)",
 		},
-
 	},
 }
