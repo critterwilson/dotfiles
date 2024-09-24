@@ -1,4 +1,4 @@
-return {
+return { -- A "homepage" for nvim
 	"goolord/alpha-nvim",
 	dependencies = {
 		"nvim-tree/nvim-web-devicons",

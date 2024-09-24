@@ -1,8 +1,8 @@
-return {
-	{
+return { -- A super powerful Fuzzy finder
+	{ -- Gives me a sweet UI to find/grep/etc
 		"nvim-telescope/telescope-ui-select.nvim",
 	},
-	{
+	{ -- The actual fuzzy finder
 		"nvim-telescope/telescope.nvim",
 		tag = "0.1.5",
 		dependencies = { "nvim-lua/plenary.nvim" },

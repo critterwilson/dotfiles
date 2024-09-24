@@ -2,7 +2,7 @@ return {
     {
         "tpope/vim-fugitive",
     },
-    {
+    { -- Allows me to use :Git like the command line git, as well as view git info
         "lewis6991/gitsigns.nvim",
         config = function()
             require("gitsigns").setup()

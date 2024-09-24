@@ -1,4 +1,4 @@
-return {
+return { -- Easy comments for debugging
     "chrisgrieser/nvim-chainsaw",
     config = function()
         require("chainsaw").setup({

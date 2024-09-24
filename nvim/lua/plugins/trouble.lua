@@ -1,4 +1,4 @@
-return {
+return { -- Shows a list of "problems" so I can jump to them quickly
 	"folke/trouble.nvim",
 	opts = {}, -- for default options, refer to the configuration section for custom setup.
 	cmd = "Trouble",

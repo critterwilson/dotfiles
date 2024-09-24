@@ -1,4 +1,4 @@
-return {
+return { -- Dynamically select virtual environments
 	"linux-cultist/venv-selector.nvim",
 	dependencies = {
 		"neovim/nvim-lspconfig",

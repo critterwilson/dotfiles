@@ -1,4 +1,4 @@
-return {
+return { -- Stores all of my shortcuts in a cool help menu
 	"mrjones2014/legendary.nvim",
 	priority = 10000,
 	config = function()

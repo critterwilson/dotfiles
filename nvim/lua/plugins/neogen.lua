@@ -1,4 +1,4 @@
-return {
+return { -- Generates docstrings for me
 	{
 		"danymat/neogen",
 		config = function()

@@ -1,19 +1,19 @@
-return {
-	{
+return { -- Allows me to connect to Language Server Protocols
+	{ -- Nvim Package manager
 		"williamboman/mason.nvim",
 		lazy = false,
 		config = function()
 			require("mason").setup()
 		end,
 	},
-	{
+	{ -- Allows LSPs to connect to packages downloaded by Mason
 		"williamboman/mason-lspconfig.nvim",
 		lazy = false,
 		opts = {
 			auto_install = true,
 		},
 	},
-	{
+	{ -- A local LSP server for nvim
 		"neovim/nvim-lspconfig",
 		lazy = false,
 		config = function()

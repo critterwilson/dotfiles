@@ -1,4 +1,4 @@
-return {
+return { -- Wraps command line formatters/linters/etc (think: black) so that they can be used like LSPs
     "nvimtools/none-ls.nvim",
     config = function()
         local null_ls = require("null-ls")

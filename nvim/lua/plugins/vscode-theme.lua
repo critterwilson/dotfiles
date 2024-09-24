@@ -1,0 +1,24 @@
+return {
+	-- "askfiy/visual_studio_code",
+	-- priority = 100,
+	-- config = function()
+	-- 	require("visual_studio_code").setup({
+	-- 		-- `dark` or `light`
+	-- 		mode = "dark",
+	-- 		-- Whether to enable background transparency
+	-- 		transparent = true,
+	-- 		-- Whether to apply the adapted plugin
+	-- 		expands = {
+	-- 			lazy = true,
+	-- 			null_ls = true,
+	-- 			nvim_cmp = true,
+	-- 			gitsigns = true,
+	-- 			lspconfig = true,
+	-- 			telescope = true,
+	-- 			bufferline = true,
+	-- 			nvim_treesitter = true,
+	-- 		},
+	-- 	})
+	-- 	vim.cmd([[colorscheme visual_studio_code]])
+	-- end,
+}
