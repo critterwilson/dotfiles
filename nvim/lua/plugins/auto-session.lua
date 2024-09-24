@@ -2,9 +2,6 @@ return { -- Generate vim sessions automatically in the directories I'm working i
 	"rmagatti/auto-session",
 	lazy = false,
 
-	---enables autocomplete for opts
-	---@module "auto-session"
-	---@type AutoSession.Config
 	opts = {
 		allowed_dirs = { "~/Documents/*", "~/.config" },
 		suppressed_dirs = { "~/Desktop/*", "~/Downloads/*" },
